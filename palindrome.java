@@ -20,4 +20,4 @@ public class palindrome
    System.out.println("PALINDROME");
     }
  
-}// yo waddup chat
+  }
