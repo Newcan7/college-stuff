@@ -3,24 +3,16 @@ public class armstrong
 {
     public static void main(String[] args)
     {
-    int ch,number;
+    int number;
     Scanner sc= new Scanner(System.in);
-    System.out.println("Enter number :");
-    number = sc.nextInt();
     while(true)
     {
-    System.out.println("Enter 1 for Armstrong");
-    System.out.println("Enter choice :");
-    ch = sc.nextInt();
-    switch(ch)
-    {
-        case 1: if(armstrong(number))
-                System.out.println("Armstrong number detected");
-                else
-                System.out.println(" NOOO Armstrong number detected");
-                
-                break;
-    }
+    System.out.println("Enter number :");
+    number = sc.nextInt();
+    if(armstrong(number))
+        System.out.println("Armstrong number detected");
+    else
+        System.out.println("NOOO Armstrong number detected");
     }
     }
     public static boolean armstrong(int n)
