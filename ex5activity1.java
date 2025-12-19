@@ -24,5 +24,5 @@ class ex5activity1 {
          System.out.println("Prime");
         else
        System.out.println("Composite");
-    }
+    } // yoooo just testing//
 }
