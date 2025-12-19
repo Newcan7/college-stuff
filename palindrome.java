@@ -6,8 +6,8 @@ public class palindrome
     String str;
     Scanner sc= new Scanner(System.in);
     System.out.println("Enter a Sentence : ");
-      str = sc.nextLine();
-      String rev = "";
+    str = sc.nextLine();
+    String rev = "";
     int i;
     for(i=str.length()-1;i>=0;i--)
     {
