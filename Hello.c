@@ -10,4 +10,4 @@ int main ()
     scanf("%f",&Width);
     printf("Area of the given Trapezium is : %f",0.5*(Length*Width)/Height) ;
     return 0;
-}
+} // just testing // 
